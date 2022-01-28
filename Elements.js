@@ -29,19 +29,5 @@ document.querySelector("ul.todo-list > li:nth-child(2) > div > label").dispatchE
 document.querySelector("ul.todo-list > li:nth-child(2) .edit") .value="amended"
 document.querySelector("ul.todo-list > li:nth-child(2) .edit") .dispatchEvent(new Event ('blur'))
 
-// toggle every item
-let toggles = document.querySelectorAll(".toggle")
-for(togglepos=0; togglepos<toggles.length; togglepos++) {
-    if(togglepos%2==1){
-    toggles[togglepos].click();
-  }
-}
-
-// toggle every item 
-let toggles = document.querySelectorAll(".toggle")
-for(togglepos=0; togglepos<toggles.length; togglepos+=2) {
-     toggles[togglepos].click();
-}
-
 
 
