@@ -1,5 +1,6 @@
 //https://testautomationu.applitools.com/automating-in-the-browser-using-javascript/chapter10.html
 
+
 //counting up from 0 to 100
 
 let botTodoCount = 0;
