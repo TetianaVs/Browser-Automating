@@ -1,5 +1,6 @@
 //https://testautomationu.applitools.com/automating-in-the-browser-using-javascript/chapter8.2.html
 
+
 let autoTodo = new function() {
 
     this.clickItem = function(item) {
