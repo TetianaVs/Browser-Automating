@@ -57,6 +57,7 @@ function toggleEverySecondItem() {
 }
 
 
+
 //create 100 todos
 for (x = 1; x <= 100; x++) {
     setTimeout(autoTodo.createTodo, x * 100, "todo " + x);
